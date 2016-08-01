@@ -1,0 +1,20 @@
+{
+  "configuration":
+  {
+    "port": 4444,
+    "host": 192.168.2.53,
+    "register": true,
+    "registerCycle": 1000,
+    "hubPort": 4444,
+    "hubHost": 192.168.0.176,
+    "nodeTimeout": 120
+  },
+  "capabilities":
+      [
+        {
+	  "browserName": "firefox",
+          "maxInstances": 3,
+          "seleniumProtocol": "WebDriver"
+        }
+      ]
+}
